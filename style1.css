@@ -1,0 +1,15 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .product-image {
+    width: 200px;
+    height: 200px; 
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }

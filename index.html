@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best SmartPhone in 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="bg-indigo-700 shadow-lg">
+        <div class="container mx-auto">
+            <div class="sm:flex justify-between items-center">
+                <a href="#" class="text-white text-2xl font-bold p-3 mr-4"><i class="fas fa-mobile-android-alt"></i> SmartPhone Corner</a>
+    
+                <button class="text-white sm:hidden focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+    
+                <ul class="text-gray-300 sm:flex sm:self-center text-1xl border-t sm:border-none font-sans mt-4 sm:mt-0 hidden">
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-white"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#productGrid" class="p-3 hover:text-white"><i class="fa fa-shopping-cart" aria-hidden="true"></i> PRODUCTS</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#about" class="p-3 hover:text-white"><i class="fa fa-address-card" aria-hidden="true"></i> ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div>
+        <img src="1.jpg" class="mx-auto h-auto" alt="SmartPhone Corner">
+        <div id="about" class="centered text-white text-3xl font-bold p-3 mr-40 font-serif caret-emerald-200">
+            <br><br>
+            <h2 class="text-3xl font-bold text-center mb-4">About Us</h2>
+            <hr>
+            <hr> 
+            <div class="max-w-3xl mx-auto text-lg text-white border-solid border-cyan-50">
+                <p class="font-extralight w-full">Welcome to SmartPhone Corner! We are dedicated to bringing you the latest and
+                    greatest smartphones on
+                    the market. Whether you're an Android aficionado or an iOS enthusiast, we have something for
+                    everyone.</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="mb-4 flex justify-center">
+            <input id="searchInput" type="text" placeholder="Search your favorite SmartPhone"
+                class="p-2 border border-gray-300 rounded-lg w-8/12">
+            <button onclick="searchProducts()" class="bg-blue-500 text-white px-4 py-2 rounded-lg ml-2">Search</button>
+        </div>
+
+
+        <div id="productGrid" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+        <!-- <div class="flex justify-center">
+            <button onclick="showMore()" id="seeMoreBtn" class=" mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg ">See
+                More</button>
+        </div> -->
+
+        <br>
+        <footer class="bg-gray-800 text-white py-4 footer">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex m-auto">
+                    <p>&copy; 2024 SmartPhone Corner. All rights reserved. || <i class="fa fa-code"
+                            aria-hidden="true"></i> developed by Md Sanwar Hossain</p>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
